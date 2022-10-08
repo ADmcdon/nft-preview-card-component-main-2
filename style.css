@@ -1,0 +1,16 @@
+:root{
+  --very_dark_blue0: hsl(217, 54%, 11%) ###main bg;
+  --very_dark_blue1: hsl(216, 50%, 16%) ###card bg;
+  --very_dark_blue2: hsl(215, 32%, 27%) ###linee;
+  --white: hsl(0, 0%, 100%);
+}
+
+
+.attribution { 
+  font-size: 11px; text-align: center; 
+}
+
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
