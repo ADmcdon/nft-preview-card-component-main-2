@@ -1,10 +1,29 @@
-:root{
-  --very_dark_blue0: hsl(217, 54%, 11%) ###main bg;
-  --very_dark_blue1: hsl(216, 50%, 16%) ###card bg;
-  --very_dark_blue2: hsl(215, 32%, 27%) ###linee;
-  --white: hsl(0, 0%, 100%);
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --bg-main: hsl(217, 54%, 11%);
+  --bg-card: hsl(216, 50%, 16%);
+  --colour-blue: hsl(215,51%,70%);
+  --colour-cyan: hsl(178,100%,50%);
+  --colour-white: hsl(0, 0%, 100%);
+  --line-colour: hsl(215, 32%, 27%); 
 }
 
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Project Styles */
+body {
+  background-color: var(--bg-main);
+  font-family: "Outfit", sans-serif;
+  color: var(--colour-blue);
+}
+.container{
+  background-color: var(--very_dark_blue0);
+}
 
 .attribution { 
   font-size: 11px; text-align: center; 
